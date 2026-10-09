@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Playwright reports and artifacts
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Generated screenshots
+/screenshots/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
